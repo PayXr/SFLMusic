@@ -130,7 +130,7 @@ async def braodcast_message(client, message, _):
             except Exception:
                 continue
         try:
-            await message.reply_text(_["broad_1"].format(sent, pin))
+            await message.reply_text(f"✅**Broadcasted Success 21{sent} Groups**")
         except:
             pass
 
@@ -157,7 +157,7 @@ async def braodcast_message(client, message, _):
             except Exception:
                 pass
         try:
-            await message.reply_text(_["broad_7"].format(susr))
+            await message.reply_text(f"✅ **Broadcasted Message to 34{susr} Users**")
         except:
             pass
 
